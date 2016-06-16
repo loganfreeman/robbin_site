@@ -10,7 +10,7 @@ gem 'padrino-helpers', '~> 0.11'
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'erubis', '~> 2.7.0'
 gem 'activerecord', '~> 3.2', :require => 'active_record'
-gem 'mysql2'
+gem 'pg'
 gem 'dalli', :require => 'active_support/cache/dalli_store'
 gem 'kgio'
 gem "second_level_cache", :git => "git://github.com/csdn-dev/second_level_cache.git"

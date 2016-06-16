@@ -69,7 +69,6 @@ GEM
     minitest (2.6.2)
     multi_json (1.10.1)
     multipart-post (2.0.0)
-    mysql2 (0.3.17)
     netrc (0.8.0)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
@@ -88,6 +87,7 @@ GEM
     padrino-helpers (0.11.3)
       i18n (~> 0.6)
       padrino-core (= 0.11.3)
+    pg (0.18.4)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -151,10 +151,10 @@ DEPENDENCIES
   kgio
   mini_magick
   minitest (~> 2.6.0)
-  mysql2
   padrino-core (~> 0.11)
   padrino-gen (~> 0.11)
   padrino-helpers (~> 0.11)
+  pg
   pry-padrino
   rack-test
   rake
@@ -167,4 +167,4 @@ DEPENDENCIES
   zbatery
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
